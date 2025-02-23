@@ -1,16 +1,21 @@
-# assessment_project
+# Real-Time Object Detection App
 
-A new Flutter project.
+This Flutter application performs real-time object detection using the **TFLite** model. It allows users to select an object for detection, captures an image once the object is detected, and displays the detected image with meta information.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+1. **Object Selection Screen**: 
+   - A list of objects (e.g., Laptop, Mobile, Mouse, Bottle) is provided for selection.
+   
+2. **Object Detection Screen**: 
+   - After selecting an object, the app takes you to the detection screen where the selected object is detected in real-time using the device's camera.
+   
+3. **Result Screen**: 
+   - Once an object is detected, the app captures the image and displays the detected object along with metadata (e.g., object name, timestamping).
 
-A few resources to get you started if this is your first Flutter project:
+## Tools & Libraries Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **State Management**: Provider
+- **Framework**: Flutter (Version: 3.19.6)
+- **SDK**: TFLite v2
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
